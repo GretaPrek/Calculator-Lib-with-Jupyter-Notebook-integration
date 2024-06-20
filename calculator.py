@@ -74,11 +74,11 @@ class Calculator:
             The result of the division or an error message if division by zero.
         """
         print(f"Memory value: {self.memory}")
-        if number == 0:
-            raise ZeroDivisionError
-        #("Division by zero is not allowed.")
-        self.memory /= number
-        return self.memory
+        try:
+            self.memory /= number
+            return self.memory
+        except ZeroDivisionError:
+            return("Error. Division by zero is not allowed.")
 
     def take_n_root(self, number):
         """
