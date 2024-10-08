@@ -1,6 +1,5 @@
 """
-Sprint2 Project A Calculator
-Turing College DS program, learner Greta Prekeriene
+Greta Prekeriene
 2024-06-20
 """
 

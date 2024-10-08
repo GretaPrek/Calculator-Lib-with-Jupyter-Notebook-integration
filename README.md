@@ -1,8 +1,6 @@
-# DS.v3.1.2.5
+# Project A Calculator using Jupyter Notebooks
 
-Sprint2 Project A Calculator
-
-Turing College DS program, learner Greta Prekeriene 2024-06-20
+Project A Calculator
 
 Introduction
 
